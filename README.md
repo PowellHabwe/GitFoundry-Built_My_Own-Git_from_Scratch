@@ -2,16 +2,23 @@ This project is an implementation of Git, developed as part of the Codecrafters 
 
 Features Implemented
 ✅ 1. Initializing a Repository (git init)
+
 Creates the .git directory and subdirectories (objects, refs).
 Sets up the HEAD file pointing to refs/heads/main.
+
 ✅ 2. Handling Git Objects (git hash-object, git cat-file)
+
 Blob creation: Reads file content, computes its SHA-1 hash, and stores it in .git/objects/.
 Object retrieval: Reads and decompresses objects from .git/objects/.
+
 ✅ 3. Tree and Commit Management (git write-tree, git commit-tree, git commit)
+
 Tree objects: Converts the directory structure into a Git tree.
 Commit objects: Links trees and parent commits, storing metadata like message, author, and timestamp.
 Commit referencing: Updates .git/refs/ with commit hashes.
+
 ✅ 4. Listing Tree Contents (git ls-tree)
+
 Parses and displays tree objects
 
 
