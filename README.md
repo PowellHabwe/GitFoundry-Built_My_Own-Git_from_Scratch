@@ -49,7 +49,7 @@ Conclusion
 This project provides a deeper understanding of Git internals, including object storage, commits, and references. 
 
 
-#Below are the CodeCrafters Instrucions
+# Below are the CodeCrafters Instrucions
 
 
 
