@@ -30,11 +30,17 @@ Building the Project
 cargo build --release
 
 Running the CLI
+
 cargo run -- git init
+
 cargo run -- git hash-object -w <file>
+
 cargo run -- git cat-file -p <hash>
+
 cargo run -- git write-tree
+
 cargo run -- git commit-tree -m "Message" -p <parent_hash> <tree_hash>
+
 cargo run -- git commit -m "Commit message"
 
 
