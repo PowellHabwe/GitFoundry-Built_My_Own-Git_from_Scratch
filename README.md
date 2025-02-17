@@ -24,6 +24,7 @@ Parses and displays tree objects
 
 Prerequisites
 Rust installed (rustc --version)
+
 Cargo package manager
 
 Building the Project
